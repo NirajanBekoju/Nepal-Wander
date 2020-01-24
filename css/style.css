@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+html{
+	scroll-behavior: smooth!important;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*--------Main Content---------*/
+.header_page{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/mainbg.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*--------Navigation Bar---------*/
+.background{
+	background: #1e1e1e!important;
+	min-height: 80px;
+}
+.navbar-default{
+	background: transparent;
+	border: none;
+	padding-top: 10px;
+	transition: 0.9s;
+}
+.navbar-brand > img{
+	margin-top: -10px;
+	width: 80px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #ff9f1c;
+	background-color: transparent;
+
+}
+/*--------Main Heading---------*/
+.heading_main h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
+	margin-top: 200px;
+}
+.heading_main h1 span{
+	color: #ff9f1c;
+	padding: 20px;
+}
+.heading_main p{
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.btn-header{
+	background: #ff9f1c;
+	padding: 15px 30px;
+	border: 1px solid #ff9f1c;
+	border-radius: 50px;
+	font-size: 20px;
+	font-weight: 700;
+	transition: 0.9s;
+}
+.btn-header:hover{
+	background: transparent;
+	border: 1px solid #ff9f1c;
+}
+/*---------Welcome to Nepal Wander=-------*/
+#welcome{
+	background: #f5f5f5;
+}
+#welcome .container{
+	padding: 30px;
+}
+.sub-heading{
+	color: #000;
+	font-weight: 700;
+	padding: 20px;
+}
+#welcome p{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.btn-welcome{
+	background: #5A564F;
+	border: 1px solid #5A564F;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 10px 30px;
+	border-radius: 50px;
+}
+.btn-welcome:hover{
+	background: transparent;
+	border: 1px solid #5A564F;
+	color: #5A564F;
+}
+/*--------End of Welcome--------*/
+/*-----------Wanders--------*/
+#wanders{
+	background: #fff;
+}
+.grey{
+	background: #aaa;
+	margin-bottom: 0;
+}
+.grey h2{
+	color: #555;
+	padding: 80px;
+}
+.wander-panel{
+	width: 90%;
+}
+.panel-wander{
+	margin-top: -15px;
+}
+/*----------Why Us----------*/
+#why-us{
+	background: #f5f5f5;
+	padding: 30px 0 50px 0;
+	min-height: 300px;
+}
+#why-us .container{
+	min-height: 300px;
+}
+.nav-tabs {
+    border-bottom: none;
+    margin-left: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	border: none;
+}
+.whyus-content p{
+	font-size: 18px;
+	color: #1e1e1e;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #000;
+	cursor: default;
+	background: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    font-size: 18px;
+    color: #000;
+}
+.nav-tabs > li > a:hover{
+	background: none;
+}
+/*------------Travelling Hightlights--------------*/
+.highlights{
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/youtube.jpg);
+}
+.highlights i{
+	color: white;
+	cursor: pointer;
+	padding: 200px 0;
+	font-size: 115px;
+}
+.highlights i h2{
+	color: white;
+}
+.highlights .modal-btn, .highlights .modal-btn:hover {
+	background: none;
+	border: none;
+}
+.modal-body, .modal-content{
+	width: 100%;
+	background: none;
+}
+iframe{
+	margin-left: -100px;
+}
+/*---------Proffessional Team--------------*/
+#team{
+	padding: 20px 0;
+	background: #f5f5f5;
+}
+#team .team-member{
+	width: 95%;
+}
+.member-name{
+	padding: 20px 0 50px 0;
+}
+/*----------Nepal Wander-----------*/
+#nepal-wanders{
+	padding: 20px 0 50px 0; 
+}
+#nepal-wanders h2{
+	color: #5a564f;
+}
+#nepal-wanders div{
+	padding: 0;
+}
+/*------------Footer---------------*/
+footer{
+	background: #16161e;
+	color: white;
+	padding: 80px 0 0 0;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	padding: 10px 0;
+}
+footer ul li a{
+	color: white;
+}
+.media-footer i{
+	padding: 0 5px;
+}
+.media-footer i{
+	color: white;
+}
+#bottom{
+	border-top: 1px solid #1e1e1e;
+	padding: 5px 0;
+}
+#bottom h3{
+	font-size: 16px;
+}
+.atop{
+	width: 40px;
+	height: 40px;
+	background: #ff9f1c;
+	border-radius: 50%;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+}
+.atop a{
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+}
+@media (max-width:480px){
+	section{
+		width: 100%;
+		overflow: hidden;
+	}
+	.container{
+		width: 100%;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    	border: none;
+    	box-shadow: none;
+	}
+	.heading_main h1{
+		font-size: 29px;
+	}
+	h2.sub-heading{
+		font-size: 24px;
+	}
+	#welcome .container {
+    	padding: 5px;
+	}
+	.whyus-content{
+		text-align: center;
+	}
+	#nepal-wanders{
+		padding-bottom: 0;
+	}
+	.team-member img{
+		margin: auto;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .col-md-3{
+		padding: 0 0 20px 0;
+	}
+	footer ul, footer ul li{
+		padding: 0;
+	}
+	iframe{
+		width: 100%;
+		margin-left: 0;
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	    color: #000;
+		cursor: default;
+		background: none;
+		font-size: 11px;
+		font-weight: 700;
+	}
+	.nav-tabs > li > a {
+	    margin-right: 2px;
+	    line-height: 1.42857143;
+	    border: none;
+	    border-radius: 4px 4px 0 0;
+	    font-size: 11px;
+	    color: #000;
+	}
+	.nav-tabs{
+		margin-left: 0;
+		text-align: center;
+	}
+	.navbar-default{
+		background: rgba(51,51,51,0.9);!important;
+		min-height: 80px;
+	}
+}
